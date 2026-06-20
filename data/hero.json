@@ -1,0 +1,34 @@
+{
+  "en": {
+    "slides": [
+      {
+        "title": "Signature Outerwear",
+        "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80"
+      },
+      {
+        "title": "Seasonless Essentials",
+        "image": "https://images.unsplash.com/photo-1520974695811-27f9a00c3fba?auto=format&fit=crop&w=1200&q=80"
+      },
+      {
+        "title": "Future Ready Design",
+        "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1200&q=80"
+      }
+    ]
+  },
+  "fr": {
+    "slides": [
+      {
+        "title": "Outerwear signature",
+        "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80"
+      },
+      {
+        "title": "Essentiels sans saison",
+        "image": "https://images.unsplash.com/photo-1520974695811-27f9a00c3fba?auto=format&fit=crop&w=1200&q=80"
+      },
+      {
+        "title": "Design prêt pour l'avenir",
+        "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1200&q=80"
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "intro": "Explore the first collection from Solo Rider Apparel. Every item is built for modern riders and designed with future commerce integration in mind.",
+  "items": [
+    {
+      "name": "Rider Jacket",
+      "category": "Outerwear",
+      "description": "A matte black shell with engineered stretch panels, welded hardware, and an angular, modern fit.",
+      "price": "$348",
+      "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "name": "Midnight Tee",
+      "category": "Basics",
+      "description": "Heavyweight cotton with a tailored silhouette, tonal stitching, and a clean, understated brand signature.",
+      "price": "$68",
+      "image": "https://images.unsplash.com/photo-1520974695811-27f9a00c3fba?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "name": "Apex Hoodie",
+      "category": "Layering",
+      "description": "A minimalist pullover with a structured hood, sleek hardware, and a premium matte finish.",
+      "price": "$108",
+      "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=80"
+    }
+  ],
+  "fr": {
+    "intro": "Découvrez la première collection Solo Rider Apparel. Chaque pièce est conçue pour les motards modernes et pensée pour une intégration e-commerce future.",
+    "items": [
+      {
+        "name": "Veste Rider",
+        "category": "Outerwear",
+        "description": "Une veste noire mate avec des panneaux extensibles, des finitions soudées et une coupe moderne et angulaire.",
+        "price": "348 $",
+        "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=900&q=80"
+      },
+      {
+        "name": "T-shirt Midnight",
+        "category": "Basics",
+        "description": "Coton épais avec une coupe ajustée, des coutures ton sur ton et un style sobre et raffiné.",
+        "price": "68 $",
+        "image": "https://images.unsplash.com/photo-1520974695811-27f9a00c3fba?auto=format&fit=crop&w=900&q=80"
+      },
+      {
+        "name": "Hoodie Apex",
+        "category": "Layering",
+        "description": "Un sweat minimaliste avec capuche structurée, finitions élégantes et texture premium.",
+        "price": "108 $",
+        "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=80"
+      }
+    ]
+  }
+}

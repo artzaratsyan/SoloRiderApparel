@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+<section class="hero-panel">
+  <div class="hero-copy">
+    <p class="eyebrow">Solo Rider Apparel</p>
+    <h1>{{ .Params.heroTitle | default "Modern motorcycle-inspired apparel for the lone rider." }}</h1>
+    <p class="lead">{{ .Params.heroLead | default "Bold silhouettes, minimalist details, and a dark palette built to move from street to ride." }}</p>
+    <div class="hero-cta">
+      <a href="{{ "/products/" | relLangURL }}" class="btn btn-primary">{{ .Params.ctaProductsLabel | default "View Products" }}</a>
+      <a href="{{ "/about/" | relLangURL }}" class="btn btn-secondary">{{ .Params.ctaAboutLabel | default "About The Brand" }}</a>
+    </div>
+  </div>
+
+  {{ $heroSlides := index hugo.Data.hero .Site.Language.Lang }}
+  {{ if not $heroSlides }}{{ $heroSlides = hugo.Data.hero.en }}{{ end }}
+  <div class="hero-carousel" id="heroCarousel">
+    {{ range $index, $slide := $heroSlides.slides }}
+      <div class="carousel-slide {{ if eq $index 0 }}active{{ end }}" style="background-image: url('{{ $slide.image }}');">
+        <span>{{ $slide.title }}</span>
+      </div>
+    {{ end }}
+    <div class="carousel-controls">
+      <button class="carousel-btn prev" aria-label="Previous slide">‹</button>
+      <button class="carousel-btn next" aria-label="Next slide">›</button>
+    </div>
+  </div>
+</section>
+
+<section class="feature-row">
+  <div>
+    <h2>{{ .Params.featureHeadline | default "Built for bold movement." }}</h2>
+    <p>{{ .Params.featureBody | default "Every detail is crafted with a modern rider sensibility: premium fabrics, refined cuts, and a minimalist edge." }}</p>
+  </div>
+  <div class="feature-grid">
+    {{ range .Params.features }}
+      <div class="feature-card">
+        <h3>{{ .title }}</h3>
+        <p>{{ .copy }}</p>
+      </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

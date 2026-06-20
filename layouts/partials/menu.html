@@ -1,0 +1,28 @@
+<nav class="nav" aria-label="{{ i18n "Primary navigation" }}">
+  {{ range .Site.Menus.main }}
+    <a href="{{ .URL }}" class="nav-link">{{ .Name }}</a>
+  {{ end }}
+</nav>
+
+<div class="language-switch" aria-label="{{ i18n "Select language" }}">
+  {{ with .Rotate "language" }}
+    {{ range . }}
+      <a href="{{ .Permalink }}" class="lang-link {{ if eq .Site.Language $.Site.Language }}active{{ end }}">{{ .Site.Language.Label }}</a>
+    {{ end }}
+  {{ end }}
+</div>
+
+<nav class="mobile-nav" id="mobileNav" aria-label="{{ i18n "Primary navigation" }}">
+  <div class="mobile-nav-links">
+    {{ range .Site.Menus.main }}
+      <a href="{{ .URL }}" class="mobile-nav-link">{{ .Name }}</a>
+    {{ end }}
+  </div>
+  <div class="mobile-lang-links">
+    {{ with .Rotate "language" }}
+      {{ range . }}
+        <a href="{{ .Permalink }}" class="mobile-lang-link {{ if eq .Site.Language $.Site.Language }}active{{ end }}">{{ .Site.Language.Label }}</a>
+      {{ end }}
+    {{ end }}
+  </div>
+</nav>

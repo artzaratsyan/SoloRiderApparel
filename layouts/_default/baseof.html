@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="{{ .Site.Language }}">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body class="site-shell">
+    <div class="site-frame">
+      <header class="site-header">
+        <div class="brand">
+          <a href="{{ .Site.Home.RelPermalink }}" class="brand-link">{{ .Site.Title }}</a>
+        </div>
+
+        <button class="mobile-toggle" id="mobileMenuToggle" aria-expanded="false" aria-label="{{ i18n "Open menu" }}" data-open-text="{{ i18n "Open menu" }}" data-close-text="{{ i18n "Close menu" }}">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        {{ partial "menu.html" . }}
+      </header>
+
+      <main class="site-main">
+        {{ block "main" . }}{{ end }}
+      </main>
+
+      {{ partial "footer.html" . }}
+    </div>
+    <script src="/js/carousel.js" defer></script>
+    <script src="/js/site.js" defer></script>
+  </body>
+</html>

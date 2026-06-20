@@ -1,0 +1,66 @@
+baseURL = "https://soloriderapparel.com/"
+canonifyURLs = true
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+locale = "en_US.UTF-8"
+title = "Solo Rider Apparel"
+paginate = 0
+
+[params]
+  brand = "Solo Rider Apparel"
+  domain = "soloriderapparel.com"
+  accent = "#b99534"
+  background = "#0c0c0e"
+  surface = "#141417"
+  border = "#242429"
+  instagram = "https://www.instagram.com/soloriderapparel"
+
+[languages]
+  [languages.en]
+    title = "Solo Rider Apparel"
+    label = "English"
+    locale = "en_US.UTF-8"
+    weight = 1
+    [languages.en.params]
+      brand = "Solo Rider Apparel"
+    [[languages.en.menu.main]]
+      name = "Home"
+      url = "/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "About"
+      url = "/about/"
+      weight = 2
+    [[languages.en.menu.main]]
+      name = "Products"
+      url = "/products/"
+      weight = 3
+    [[languages.en.menu.main]]
+      name = "Inquire"
+      url = "/inquire/"
+      weight = 4
+
+  [languages.fr]
+    title = "Solo Rider Apparel"
+    label = "Français"
+    locale = "fr_FR.UTF-8"
+    weight = 2
+    [languages.fr.params]
+      brand = "Solo Rider Apparel"
+    [[languages.fr.menu.main]]
+      name = "Accueil"
+      url = "/fr/"
+      weight = 1
+    [[languages.fr.menu.main]]
+      name = "À propos"
+      url = "/fr/about/"
+      weight = 2
+    [[languages.fr.menu.main]]
+      name = "Produits"
+      url = "/fr/products/"
+      weight = 3
+    [[languages.fr.menu.main]]
+      name = "Demande"
+      url = "/fr/inquire/"
+      weight = 4

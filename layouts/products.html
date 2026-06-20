@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{ $products := site.Data.products }}
+{{ if eq .Site.Language.Lang "fr" }}
+  {{ $products = site.Data.products.fr }}
+{{ end }}
+<article class="page-content">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+    <p>{{ $products.intro }}</p>
+  </header>
+  <div class="product-grid">
+    {{ range $products.items }}
+      <div class="product-card">
+        <img src="{{ .image }}" alt="{{ .name }}" loading="lazy" fetchpriority="low">
+        <div class="product-copy">
+          <span class="product-badge">{{ .category }}</span>
+          <h3>{{ .name }}</h3>
+          <p>{{ .description }}</p>
+          <div class="product-price">{{ .price }}</div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</article>
+{{ end }}
