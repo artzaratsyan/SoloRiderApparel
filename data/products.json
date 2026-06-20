@@ -1,49 +1,49 @@
 {
-  "intro": "Explore the first collection from Solo Rider Apparel. Every item is built for modern riders and designed with future commerce integration in mind.",
+  "intro": "Explore the first collection from Solo Rider Apparel. Every item is made for riders who think less about branding and more about the choice to move.",
   "items": [
     {
       "name": "Rider Jacket",
       "category": "Outerwear",
-      "description": "A matte black shell with engineered stretch panels, welded hardware, and an angular, modern fit.",
+      "description": "A matte black shell with engineered stretch panels, welded hardware, and the kind of fit that feels decisive on every ride.",
       "price": "$348",
       "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=900&q=80"
     },
     {
       "name": "Midnight Tee",
       "category": "Basics",
-      "description": "Heavyweight cotton with a tailored silhouette, tonal stitching, and a clean, understated brand signature.",
+      "description": "Heavyweight cotton cut for motion, with tonal seams and a quiet signature that keeps the focus on the road ahead.",
       "price": "$68",
       "image": "https://images.unsplash.com/photo-1520974695811-27f9a00c3fba?auto=format&fit=crop&w=900&q=80"
     },
     {
       "name": "Apex Hoodie",
       "category": "Layering",
-      "description": "A minimalist pullover with a structured hood, sleek hardware, and a premium matte finish.",
+      "description": "A clean pullover with a structured hood, refined hardware, and a premium matte finish built to carry you through every shift.",
       "price": "$108",
       "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=80"
     }
   ],
   "fr": {
-    "intro": "Découvrez la première collection Solo Rider Apparel. Chaque pièce est conçue pour les motards modernes et pensée pour une intégration e-commerce future.",
+    "intro": "Découvrez la première collection Solo Rider Apparel. Chaque pièce est pensée pour les riders qui privilégient le choix du mouvement plutôt que l’apparence.",
     "items": [
       {
         "name": "Veste Rider",
         "category": "Outerwear",
-        "description": "Une veste noire mate avec des panneaux extensibles, des finitions soudées et une coupe moderne et angulaire.",
+        "description": "Une coque noire mate aux panneaux extensibles, finitions soudées et coupe affirmée, prête pour chaque trajectoire.",
         "price": "348 $",
         "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=900&q=80"
       },
       {
         "name": "T-shirt Midnight",
         "category": "Basics",
-        "description": "Coton épais avec une coupe ajustée, des coutures ton sur ton et un style sobre et raffiné.",
+        "description": "Coton lourd coupé pour le mouvement, coutures ton sur ton et allure discrète qui laisse la route parler.",
         "price": "68 $",
         "image": "https://images.unsplash.com/photo-1520974695811-27f9a00c3fba?auto=format&fit=crop&w=900&q=80"
       },
       {
         "name": "Hoodie Apex",
         "category": "Layering",
-        "description": "Un sweat minimaliste avec capuche structurée, finitions élégantes et texture premium.",
+        "description": "Un sweat épuré à capuche structurée, finitions raffinées et texture premium, conçu pour accompagner chaque passage de vitesse.",
         "price": "108 $",
         "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=80"
       }

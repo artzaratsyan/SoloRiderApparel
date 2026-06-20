@@ -1,18 +1,18 @@
 ---
 title: "Solo Rider Apparel"
-heroTitle: "Modern motorcycle-inspired apparel for the lone rider."
-heroLead: "Bold silhouettes, minimalist details, and a dark palette built to move from street to ride."
+heroTitle: "Choose your path."
+heroLead: "A brand and mindset for riders who trust their instincts, embrace the ride, and measure every road by the choices they make."
 ctaProductsLabel: "View Products"
 ctaAboutLabel: "About The Brand"
-featureHeadline: "Built for bold movement."
-featureBody: "Every detail is crafted with a modern rider sensibility: premium fabrics, refined cuts, and a minimalist edge."
+featureHeadline: "Ride with intention."
+featureBody: "Every piece is grounded in the rider’s inner dialogue: bold design, premium materials, and the freedom to define your own route."
 features:
-  - title: "Clean lines"
-    copy: "Minimal branding and architectural tailoring for a quiet, decisive look."
-  - title: "Dark palette"
-    copy: "Masculine neutrals with high contrast and textured surfaces."
-  - title: "Commerce-ready"
-    copy: "Content structured to support future product APIs and checkout workflows."
+  - title: "Inner dialogue"
+    copy: "Designed for the moment between the angel and the demon, where the ride becomes your choice."
+  - title: "Freedom in form"
+    copy: "Minimalist silhouettes with sharp lines that feel effortless on the road and off."
+  - title: "Built to move"
+    copy: "A timeless collection made for riders who value clarity, strength, and endless possibility."
 ---
 
-Welcome to Solo Rider Apparel, where bold silhouettes meet clean design. Built for riders and crafted for the city, this launch site brings a modern, minimalist brand experience with room to grow into full e-commerce.
+Hello, I’m Daniel, founder of *Solo Rider*. This is more than a fashion label — it’s a philosophy for riders on two wheels, four wheels, or four hooves. Whether you’re alone or in a group, the road is a place to think, choose, and move with purpose. Our logo tells that story: the angel and the demon who guide us toward the path we take.

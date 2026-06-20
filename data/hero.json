@@ -2,15 +2,15 @@
   "en": {
     "slides": [
       {
-        "title": "Signature Outerwear",
+        "title": "The Choice Jacket",
         "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80"
       },
       {
-        "title": "Seasonless Essentials",
+        "title": "No-Season Essentials",
         "image": "https://images.unsplash.com/photo-1520974695811-27f9a00c3fba?auto=format&fit=crop&w=1200&q=80"
       },
       {
-        "title": "Future Ready Design",
+        "title": "Ready for the Road Ahead",
         "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1200&q=80"
       }
     ]
@@ -18,15 +18,15 @@
   "fr": {
     "slides": [
       {
-        "title": "Outerwear signature",
+        "title": "La veste du choix",
         "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80"
       },
       {
-        "title": "Essentiels sans saison",
+        "title": "Essentiels toute saison",
         "image": "https://images.unsplash.com/photo-1520974695811-27f9a00c3fba?auto=format&fit=crop&w=1200&q=80"
       },
       {
-        "title": "Design prêt pour l'avenir",
+        "title": "Prêt pour la route",
         "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=1200&q=80"
       }
     ]

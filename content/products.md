@@ -2,4 +2,4 @@
 title: "Products"
 ---
 
-This page is fully data-driven using `data/products.json`, making it easy to add or update items without changing the layout.
+Our products are designed for riders who value minimal utility, rugged refinement, and a strong, dark aesthetic.
