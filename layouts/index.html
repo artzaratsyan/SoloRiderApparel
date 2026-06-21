@@ -15,7 +15,8 @@
   {{ if not $heroSlides }}{{ $heroSlides = hugo.Data.hero.en }}{{ end }}
   <div class="hero-carousel" id="heroCarousel">
     {{ range $index, $slide := $heroSlides.slides }}
-      <div class="carousel-slide {{ if eq $index 0 }}active{{ end }}" style="background-image: url('{{ $slide.image }}');">
+      <div class="carousel-slide {{ if eq $index 0 }}active{{ end }}">
+        <img class="carousel-slide-image" src="{{ $slide.image }}" alt="{{ $slide.title }}">
         <span>{{ $slide.title }}</span>
       </div>
     {{ end }}
