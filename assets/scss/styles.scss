@@ -311,8 +311,11 @@ body {
 
   .carousel-controls {
     position: absolute;
-    inset: auto 1.5rem 1.5rem;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    left: auto;
     display: flex;
+    justify-content: flex-end;
     gap: 1rem;
     z-index: 2;
 
