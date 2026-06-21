@@ -16,6 +16,10 @@ paginate = 0
   border = "#242429"
   instagram = "https://www.instagram.com/soloriderapparel"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [languages]
   [languages.en]
     title = "Solo Rider Apparel"
