@@ -1,6 +1,7 @@
 // SCSS version of styles.css
 $foreground: #f8f7f3;
 $background: #0c0c0e;
+$header-footer-background: #141417;
 $accent: #b99534;
 $surface: #141417;
 $surface-strong: #0f0f11;
@@ -51,6 +52,7 @@ body {
 
 .site-header {
   display: flex;
+  background-color: $header-footer-background;
   justify-content: space-between;
   align-items: center;
   padding: 2rem 3rem;
@@ -162,6 +164,7 @@ body {
 
 .site-footer {
   padding: 2rem 3rem;
+  background-color:$header-footer-background;
   border-top: 1px solid $border-light;
   display: flex;
   justify-content: space-between;
