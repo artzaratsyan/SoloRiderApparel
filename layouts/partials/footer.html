@@ -1,5 +1,6 @@
 <footer class="site-footer">
   <p>{{ .Site.Params.brand }} · {{ now.Format "2006" }}</p>
+    <img src="/img/logo/logo-black-small.png" alt="Solo Rider Apparel logo" width="90" height="90">
   {{ if .Site.Params.instagram }}
   <a href="{{ .Site.Params.instagram }}" target="_blank" rel="noopener noreferrer" class="footer-instagram" aria-label="Instagram">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -9,5 +10,4 @@
     </svg>
   </a>
   {{ end }}
-  <p><a href="mailto:hello@{{ .Site.Params.domain }}" rel="noopener noreferrer">hello@{{ .Site.Params.domain }}</a></p>
 </footer>

@@ -170,23 +170,34 @@ body {
   flex-wrap: wrap;
   opacity: .75;
   font-size: .95rem;
+
+    img {
+      border-radius: 999px;
+  }
 }
 
 .footer-instagram {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: $foreground;
+  color: $background;
+  background: $foreground;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
   opacity: 1;
-  transition: color .2s ease;
+  transition: background .2s ease, color .2s ease, transform .2s ease;
 
   &:hover {
-    color: $accent;
+    color: $background;
+    background: $accent;
+    transform: translateY(-1px);
   }
 
   svg {
     width: 20px;
     height: 20px;
+    stroke: currentColor;
   }
 }
 
