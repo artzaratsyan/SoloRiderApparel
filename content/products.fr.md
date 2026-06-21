@@ -1,6 +1,7 @@
 ---
 language: "fr"
-title: "Produits"
+layout: "products"
+title: "Catalogue"
 ---
 
-Nos produits sont pensés pour les riders qui recherchent utilité discrète, raffinement brut et esthétique sombre affirmée.
+Parcourez le catalogue visuel de Solo Rider Apparel.

@@ -33,7 +33,7 @@ paginate = 0
       url = "/about/"
       weight = 2
     [[languages.en.menu.main]]
-      name = "Products"
+      name = "Catalog"
       url = "/products/"
       weight = 3
     [[languages.en.menu.main]]
@@ -57,7 +57,7 @@ paginate = 0
       url = "/fr/about/"
       weight = 2
     [[languages.fr.menu.main]]
-      name = "Produits"
+      name = "Catalogue"
       url = "/fr/products/"
       weight = 3
     [[languages.fr.menu.main]]

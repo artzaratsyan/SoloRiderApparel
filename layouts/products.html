@@ -1,25 +1,35 @@
 {{ define "main" }}
-{{ $products := site.Data.products }}
-{{ if eq .Site.Language.Lang "fr" }}
-  {{ $products = site.Data.products.fr }}
+{{ $page := . }}
+{{ $images := readDir "static/img/catalog" }}
+{{ $catalogImages := slice }}
+{{ range $images }}
+  {{ if and (not .IsDir) (or (hasSuffix .Name ".jpg") (hasSuffix .Name ".jpeg") (hasSuffix .Name ".png") (hasSuffix .Name ".webp")) }}
+    {{ $catalogImages = $catalogImages | append .Name }}
+  {{ end }}
 {{ end }}
-<article class="page-content">
-  <header class="page-header">
+{{ $catalogImages = sort $catalogImages }}
+<section class="catalog-panel">
+  <div class="catalog-header">
     <h1>{{ .Title }}</h1>
-    <p>{{ $products.intro }}</p>
-  </header>
-  <div class="product-grid">
-    {{ range $products.items }}
-      <div class="product-card">
-        <img src="{{ .image }}" alt="{{ .name }}" loading="lazy" fetchpriority="low">
-        <div class="product-copy">
-          <span class="product-badge">{{ .category }}</span>
-          <h3>{{ .name }}</h3>
-          <p>{{ .description }}</p>
-          <div class="product-price">{{ .price }}</div>
-        </div>
-      </div>
+    {{ if .Content }}
+      <div class="catalog-copy">{{ .Content }}</div>
     {{ end }}
   </div>
-</article>
+
+  {{ if gt (len $catalogImages) 0 }}
+    <div class="hero-carousel catalog-carousel" id="catalogCarousel">
+      {{ range $index, $fileName := $catalogImages }}
+        <div class="carousel-slide {{ if eq $index 0 }}active{{ end }}">
+          <img class="carousel-slide-image" src="{{ printf "/img/catalog/%s" $fileName }}" alt="{{ printf "%s %d" $page.Title (add $index 1) }}">
+        </div>
+      {{ end }}
+      <div class="carousel-controls">
+        <button type="button" class="carousel-btn prev" aria-label="Previous slide">‹</button>
+        <button type="button" class="carousel-btn next" aria-label="Next slide">›</button>
+      </div>
+    </div>
+  {{ else }}
+    <p class="catalog-empty">No catalog images were found.</p>
+  {{ end }}
+</section>
 {{ end }}

@@ -2,7 +2,7 @@
 title: "Solo Rider Apparel"
 heroTitle: "Choose your path."
 heroLead: "A brand and mindset for riders who trust their instincts, embrace the ride, and measure every road by the choices they make."
-ctaProductsLabel: "View Products"
+ctaProductsLabel: "View Catalog"
 ctaAboutLabel: "About The Brand"
 featureHeadline: "Ride with intention."
 featureBody: "Every piece is grounded in the rider’s inner dialogue: bold design, premium materials, and the freedom to define your own route."

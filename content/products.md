@@ -1,5 +1,6 @@
 ---
-title: "Products"
+layout: "products"
+title: "Catalog"
 ---
 
-Our products are designed for riders who value minimal utility, rugged refinement, and a strong, dark aesthetic.
+Browse the visual catalog of Solo Rider Apparel.
