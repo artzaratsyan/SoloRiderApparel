@@ -61,11 +61,10 @@ body {
 }
 
 .brand-link {
-  font-size: 1.1rem;
-  letter-spacing: .3em;
-  text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  letter-spacing: .1em;
   font-weight: 700;
-  color: $accent;
 }
 
 .nav {
@@ -74,7 +73,7 @@ body {
 }
 
 .nav-link {
-  font-size: .95rem;
+  font-size: .8rem;
   text-transform: uppercase;
   letter-spacing: .2em;
   opacity: .75;
@@ -92,7 +91,7 @@ body {
 }
 
 .lang-link {
-  font-size: .85rem;
+  font-size: .8rem;
   letter-spacing: .18em;
   opacity: .75;
   transition: opacity .2s ease, color .2s ease;
@@ -142,13 +141,19 @@ body {
     gap: 1rem;
   }
 
+  .mobile-lang-links {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid $border-light;
+  }
+
   .mobile-nav-link,
   .mobile-lang-link {
     display: block;
     color: $foreground;
     text-transform: uppercase;
     letter-spacing: .16em;
-    font-size: .95rem;
+    font-size: .8rem;
     opacity: .9;
   }
 
@@ -172,7 +177,7 @@ body {
   gap: 1rem;
   flex-wrap: wrap;
   opacity: .75;
-  font-size: .95rem;
+  font-size: .8rem;
 
     img {
       border-radius: 999px;
@@ -226,11 +231,12 @@ body {
   color: #9b9b9b;
   letter-spacing: .35em;
   text-transform: uppercase;
-  font-size: .8rem;
+  font-size: .75rem;
 }
 
 .hero-copy {
   h1 {
+    font-family: 'Playfair Display';
     margin: 0;
     font-size: clamp(3rem, 5vw, 5.5rem);
     line-height: .95;
@@ -243,7 +249,7 @@ body {
   margin: 1.75rem 0 2.5rem;
   max-width: 46ch;
   opacity: .9;
-  font-size: 1.15rem;
+  font-size: 1rem;
 }
 
 .hero-cta {
@@ -259,7 +265,7 @@ body {
     padding: 0 1.75rem;
     border: none;
     text-transform: uppercase;
-    font-size: .85rem;
+    font-size: .8rem;
     letter-spacing: .18em;
     font-weight: 700;
     background: transparent;
@@ -372,6 +378,7 @@ body {
   gap: 2rem;
 
   h2 {
+    font-family: 'Playfair Display';
     margin: 0 0 1rem;
     font-size: clamp(2rem, 4vw, 3.5rem);
     line-height: 1.05;
@@ -398,6 +405,7 @@ body {
   border: none;
 
   h3 {
+    font-family: 'Playfair Display';
     margin: 0 0 .55rem;
     font-size: 1.25rem;
   }
@@ -463,7 +471,8 @@ body {
   margin: 0 auto;
 }
 
-.page-header h1 {
+.catalog-header h1, .page-header h1 {
+  font-family: 'Playfair Display';
   margin: 0 0 1.5rem;
   font-size: clamp(3rem, 5vw, 4rem);
 }

@@ -1,0 +1,10 @@
+{{- $email := .Get 0 -}}
+{{- $text := .Get 1 | default $email -}}
+{{- $scrambled := $email | base64Encode -}}
+
+<a href="#" 
+   class="scrambled-email" 
+   data-email="{{ $scrambled }}" 
+   data-text="{{ $text }}">
+  <noscript>Please enable JavaScript to view this email.</noscript>
+</a>
